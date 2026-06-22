@@ -1,5 +1,5 @@
 const EmailUtils = require('../utils/emailUtils');
-
+// login page
 class Login {
     constructor(page) {
 
