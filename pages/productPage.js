@@ -8,6 +8,7 @@ class Product {
        this.buttonAddToCart = page.getByRole("button", { name: "Add To Cart" }).click();
 
     }
+    //demo 1 changes
     async addToCart() {
 
         await this.ZaraCoat.click();
