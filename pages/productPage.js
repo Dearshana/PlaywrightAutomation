@@ -8,6 +8,7 @@ class Product {
        this.buttonAddToCart = page.getByRole("button", { name: "Add To Cart" }).click();
 
     }
+    //add zara coat in cart
     async addToCart() {
 
         await this.ZaraCoat.click();
