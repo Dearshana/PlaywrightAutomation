@@ -9,6 +9,7 @@ class Product {
 
     }
     //demo 1 changes
+    //add zara coat in cart
     async addToCart() {
 
         await this.ZaraCoat.click();
