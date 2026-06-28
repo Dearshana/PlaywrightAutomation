@@ -3,12 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "Regression": "npx playwright test",
+    "Smoke": "npx playwright test --grep @Smoke"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
+    "@azure/identity": "^4.13.1",
+    "@azure/playwright": "^1.1.6",
     "@playwright/test": "^1.60.0",
     "@types/node": "^25.9.1"
   }
